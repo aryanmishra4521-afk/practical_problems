@@ -1,0 +1,5 @@
+text = input("Enter your text: ")
+print("First three character of the string is: ", text[0:4])
+print("Last two character of the string is: ", text[-2:-1])
+print("Every second character of the string is", text[::2])
+print("reverse of the string is: ", text[::-1])
